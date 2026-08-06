@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MovieHub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#111827;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+color:#ff3c3c;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+height:420px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 35px;
+border:none;
+border-radius:8px;
+background:#ff3c3c;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ff2020;
+}
+
+.movies{
+padding:50px;
+}
+
+.movies h2{
+margin-bottom:25px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+border-radius:10px;
+overflow:hidden;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+footer{
+margin-top:40px;
+background:#111827;
+padding:20px;
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🎬 MovieHub</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Trending</a>
+<a href="#">Series</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Unlimited Movies</h2>
+
+<p>Watch Trending Movies Anywhere</p>
+
+<button onclick="watchNow()">Watch Now</button>
+
+</section>
+
+<section class="movies">
+
+<h2>Trending Movies</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=1">
+<h3>Action Hero</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=2">
+<h3>Space Journey</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=3">
+<h3>Mystery Night</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=4">
+<h3>Future World</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=5">
+<h3>Mission X</h3>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/400?random=6">
+<h3>Dark City</h3>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Azure DevOps • Docker • Kubernetes Demo Website</h3>
+
+<p>Created for CI/CD Practice</p>
+
+</footer>
+
+<script>
+function watchNow(){
+
+alert("Welcome to MovieHub!");
+
+}
+</script>
+
+</body>
+</html>
