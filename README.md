@@ -168,11 +168,8 @@ GitHub → Azure DevOps YAML Pipeline
                 ↓
                CD
                 ↓
-       Release Pipeline
-                ↓
-     Kubernetes Deployment
-                ↓
-     Deployment Troubleshooting
+       Release Pipeline error
+      
 ```
 
 ---
@@ -203,37 +200,37 @@ GitHub → Azure DevOps YAML Pipeline
 
 ### Azure DevOps YAML Pipeline
 
-![YAML Pipeline](screenshots/yaml-pipeline.png)
+![YAML Pipeline]<img width="1912" height="966" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/d9f5ddb5-0413-4e42-b08e-b529876ae2bd" />
+
 
 ### Successful CI Pipeline
 
-![CI Pipeline Success](screenshots/ci-pipeline-success.png)
+![CI Pipeline Success]<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/b5eb9b11-7b91-4667-9e87-54a3a5a02a97" />
 
 ### Build Logs
 
-![Build Logs](screenshots/build-logs.png)
+![Build Logs]<img width="1911" height="967" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/3d5662c0-ea91-4f55-a7a6-c6bebe78d3a2" />
+
 
 ### Published Build Artifact
 
-![Build Artifact](screenshots/build-artifact.png)
+![Build Artifact]<img width="1917" height="965" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/b9ecd01b-31fe-45a9-8286-e545aec54209" />
 
-### GitHub Repository
 
-![GitHub Repository](screenshots/github-repository.png)
+### Azure Repository
+
+![GitHub Repository]<img width="1907" height="792" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/8441f7a4-822a-4c2a-b7be-72155aa24da4" />
+
 
 ### Kubernetes Manifest
 
-![Kubernetes Manifest](screenshots/kubernetes-manifest.png)
+![Kubernetes Manifest] <img width="1916" height="962" alt="image" src="https://github.com/user-attachments/assets/a9ef592c-452a-4383-8cb9-945658c9ef5b" />
 
-### Release Pipeline
+### Release Pipeline Error 
 
-![Release Pipeline](screenshots/release-pipeline.png)
+![Release Pipeline] <img width="1911" height="967" alt="image" src="https://github.com/user-attachments/assets/ba1a0d1f-dc58-4f46-b108-fe55f468c442" />
 
-### Deployment Troubleshooting
 
-![Deployment Troubleshooting](screenshots/deployment-troubleshooting.png)
-
----
 
 ## 🧠 Key Learnings
 
@@ -250,10 +247,6 @@ Through this project, I gained practical experience with:
 * Kubernetes Service manifests
 * Azure DevOps service connections
 * Kubernetes deployment configuration
-* Pipeline troubleshooting
-* Deployment troubleshooting
-
----
 
 ## 🚧 Deployment Status
 
